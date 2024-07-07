@@ -1811,7 +1811,7 @@ input::-moz-focus-inner {
   -webkit-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
   position: absolute;
-  left: 11rem;
+  left: 3rem;
   top: 50%;
 }
 
@@ -3053,7 +3053,7 @@ html.no-csstransitions .hero-content {
 }
 
 .social-list__icon--twitter::before {
-  background-image: url(../images/icons/social/icon-twitter.svg);
+  background-image: url(../images/icons/social/icon-x.svg);
 }
 
 .social-list__icon--instagram::before {
@@ -3061,7 +3061,7 @@ html.no-csstransitions .hero-content {
 }
 
 .social-list__icon--email::before {
-  background-image: url(../images/icons/social/icon-email.svg);
+  background-image: url(../images/icons/social/icon-youtube.svg);
 }
 
 /* ------------------------------------------------------------------- 
