@@ -125,7 +125,7 @@ body {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-  color: #3b0d11;
+  color: #FFDF00;
   transition: all 0.3s ease-in-out;
 }
 
@@ -447,7 +447,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #3b0d11;
+  background: #FFDF00;
   position: absolute;
   left: -16px;
   top: 11px;
@@ -456,7 +456,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: #3b0d11;
+  color: #FFDF00;
 }
 
 dd {
@@ -940,7 +940,7 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: #3b0d11;
+  -webkit-text-fill-color: #FFDF00;
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -999,8 +999,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #3b0d11;
-  border-color: #3b0d11;
+  background: #FFDF00;
+  border-color: #FFDF00;
   color: #ffffff;
 }
 
@@ -1219,7 +1219,7 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-  color: #3b0d11;
+  color: #FFDF00;
 }
 
 .stats-tabs li a em {
@@ -1631,8 +1631,8 @@ input::-moz-focus-inner {
 
 .events-list__item-title a:hover,
 .events-list__item-title a:focus {
-  color: #3b0d11;
-  border-bottom: 1px solid #3b0d11;
+  color: #FFDF00;
+  border-bottom: 1px solid #FFDF00;
 }
 
 .events-list__meta {
@@ -1720,7 +1720,7 @@ input::-moz-focus-inner {
   font-weight: 700;
   text-align: center;
   color: #ffffff;
-  background-color: #3b0d11;
+  background-color: #FFDF00;
   height: 4.8rem;
   width: 4.8rem;
   line-height: 4.8rem;
@@ -2520,7 +2520,7 @@ html.no-csstransitions .hero-content {
 .s-about {
   padding-top: 19.6rem;
   padding-bottom: 19.6rem;
-  background-color: #3b0d11;
+  background-color: #FFDF00;
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -3133,7 +3133,7 @@ html.no-csstransitions .hero-content {
 .s-footer {
   padding-top: 12rem;
   padding-bottom: 8rem;
-  background-color: #3b0d11;
+  background-color: #FFDF00;
   font-family: "Open Sans", sans-serif;
   font-size: 1.7rem;
   line-height: 1.882;
@@ -3517,7 +3517,7 @@ html.no-csstransitions .hero-content {
 .event-meta strong {
   font-family: "Open Sans", sans-serif;
   margin-right: 1.2rem;
-  color: #3b0d11;
+  color: #FFDF00;
 }
 
 .event-meta strong::after {
