@@ -2740,9 +2740,11 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-social {
-  padding-top: 10.4rem;
-  padding-bottom: 9.6rem;
+  padding-top: 6.4rem;
+  padding-bottom: 6.6rem;
   background-color: #000000;
+  color: #ffffff; /* Text color */
+  text-align: center; /* Center align the text */
 }
 .social-heading h2 {
     font-family: "Montserrat", sans-serif;
@@ -2751,6 +2753,7 @@ html.no-csstransitions .hero-content {
     text-transform: uppercase;
     letter-spacing: 0.4rem; /* Adjust letter spacing as needed */
     margin-bottom: 2rem; /* Adjust spacing between heading and icons */
+    color: #ffffff; /* Text color */
 }
 
 .social-content {
