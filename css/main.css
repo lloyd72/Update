@@ -1823,7 +1823,7 @@ input::-moz-focus-inner {
 }
 
 .header-logo a:hover {
-    transform: scale(2.1); /* Zoom in effect on hover */
+    transform: scale(10); /* Zoom in effect on hover */
 }
   
 .header-logo a {
@@ -1835,9 +1835,9 @@ input::-moz-focus-inner {
 
 .header-logo img {
   width: 50px; /* Adjust size as needed */
-    height: 60px; /* Adjust size as needed */
-    border-radius: 70%; /* Make the logo round */
-    margin-right: 5px;
+    height: 100px; /* Adjust size as needed */
+    border-radius: 100%; /* Make the logo round */
+    margin-right: 20px;
 }
 
 /* -------------------------------------------------------------------
