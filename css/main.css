@@ -2515,15 +2515,15 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-  padding-top: 19.6rem;
-  padding-bottom: 19.6rem;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
   background-color: #caa50a;
   color: rgba(255, 255, 255, 0.8);
 }
 
 .s-about .subhead {
-  color: #fb8b23;
-  margin-bottom: 4rem;
+  color: #1e0f01;
+  margin-bottom: 5rem;
 }
 
 .s-about .lead {
