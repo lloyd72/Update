@@ -1830,8 +1830,8 @@ input::-moz-focus-inner {
 }
 
 .header-logo img {
-  width: 100px; /* Adjust size as needed */
-    height: 100px; /* Adjust size as needed */
+  width: 150px; /* Adjust size as needed */
+    height: auto; /* Adjust size as needed */
     margin-right: 30px;
 }
 
