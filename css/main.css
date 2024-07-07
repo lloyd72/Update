@@ -1821,10 +1821,6 @@ input::-moz-focus-inner {
   top: 50%;
   left: -11rem;
 }
-
-.header-logo a:hover {
-    transform: scale(50); /* Zoom in effect on hover */
-}
   
 .header-logo a {
   display: block;
