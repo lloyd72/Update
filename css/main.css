@@ -2515,8 +2515,8 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-  padding-top: 15rem;
-  padding-bottom: 15rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   background-color: #caa50a;
   color: rgba(255, 255, 255, 0.8);
 }
