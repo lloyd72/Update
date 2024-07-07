@@ -1811,7 +1811,7 @@ input::-moz-focus-inner {
   -webkit-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
   position: absolute;
-  left: 3rem;
+  left: 1rem;
   top: 50%;
 }
 
