@@ -1834,8 +1834,10 @@ input::-moz-focus-inner {
 }
 
 .header-logo img {
-  width: 108px;
-  height: 28px;
+  width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    border-radius: 50%; /* Make the logo round */
+    margin-right: 10px;
 }
 
 /* -------------------------------------------------------------------
