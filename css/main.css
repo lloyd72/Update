@@ -3172,11 +3172,14 @@ html.no-csstransitions .hero-content {
 
 .footer-logo a {
   display: block;
+  padding: 0;
+  outline: 0;
+  border: none;
 }
 
 .footer-logo img {
-  width: 138px;
-  height: 36px;
+  width: 150px;
+  height: auto;
 }
 
 /* -------------------------------------------------------------------
