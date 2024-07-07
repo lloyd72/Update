@@ -1806,8 +1806,8 @@ input::-moz-focus-inner {
   display: flex;
     align-items: center;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 15px;
+    left: 5px;
     z-index: 102;
 }
 
@@ -1823,7 +1823,7 @@ input::-moz-focus-inner {
 }
 
 .header-logo a:hover {
-    transform: scale(1.1); /* Zoom in effect on hover */
+    transform: scale(2.1); /* Zoom in effect on hover */
 }
   
 .header-logo a {
@@ -1835,9 +1835,9 @@ input::-moz-focus-inner {
 
 .header-logo img {
   width: 50px; /* Adjust size as needed */
-    height: 50px; /* Adjust size as needed */
-    border-radius: 50%; /* Make the logo round */
-    margin-right: 10px;
+    height: 60px; /* Adjust size as needed */
+    border-radius: 70%; /* Make the logo round */
+    margin-right: 5px;
 }
 
 /* -------------------------------------------------------------------
