@@ -1816,14 +1816,14 @@ input::-moz-focus-inner {
   display: block;
   background-color: rgba(255, 255, 255, 0.5);
   height: 1px;
-  width: 20rem;
+  width: 9rem;
   position: absolute;
   top: 50%;
   left: -11rem;
 }
 
 .header-logo a:hover {
-    transform: scale(100); /* Zoom in effect on hover */
+    transform: scale(50); /* Zoom in effect on hover */
 }
   
 .header-logo a {
