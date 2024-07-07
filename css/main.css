@@ -2740,8 +2740,8 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-social {
-  padding-top: 6.4rem;
-  padding-bottom: 6.6rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   background-color: #000000;
   color: #ffffff; /* Text color */
   text-align: center; /* Center align the text */
@@ -2752,7 +2752,7 @@ html.no-csstransitions .hero-content {
     font-size: 1.8rem; /* Adjust font size as needed */
     text-transform: uppercase;
     letter-spacing: 0.4rem; /* Adjust letter spacing as needed */
-    margin-bottom: 2rem; /* Adjust spacing between heading and icons */
+    margin-bottom: 4rem; /* Adjust spacing between heading and icons */
     color: #ffffff; /* Text color */
 }
 
