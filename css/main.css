@@ -3049,7 +3049,7 @@ html.no-csstransitions .hero-content {
   background-image: url(../images/icons/social/icon-facebook.svg);
 }
 
-.social-list__icon--X::before {
+.social-list__icon--x::before {
   background-image: url(../images/icons/social/icon-x.svg);
 }
 
