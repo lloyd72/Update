@@ -1816,14 +1816,14 @@ input::-moz-focus-inner {
   display: block;
   background-color: rgba(255, 255, 255, 0.5);
   height: 1px;
-  width: 9rem;
+  width: 20rem;
   position: absolute;
   top: 50%;
-  left: -11rem;
+  left: -5rem;
 }
 
 .header-logo a:hover {
-    transform: scale(50); /* Zoom in effect on hover */
+    transform: scale(100); /* Zoom in effect on hover */
 }
   
 .header-logo a {
@@ -1834,9 +1834,8 @@ input::-moz-focus-inner {
 }
 
 .header-logo img {
-  width: 400px; /* Adjust size as needed */
-    height: 400px; /* Adjust size as needed */
-    border-radius: 50%; /* Make the logo round */
+  width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
     margin-right: 30px;
 }
 
