@@ -1806,7 +1806,7 @@ input::-moz-focus-inner {
   display: flex;
     align-items: center;
     position: absolute;
-    top: 20px;
+    top: 9px;
     left: 5px;
     z-index: 102;
 }
