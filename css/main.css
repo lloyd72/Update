@@ -1806,7 +1806,7 @@ input::-moz-focus-inner {
   display: flex;
     align-items: center;
     position: absolute;
-    top: 15px;
+    top: 20px;
     left: 5px;
     z-index: 102;
 }
@@ -1830,9 +1830,9 @@ input::-moz-focus-inner {
 }
 
 .header-logo img {
-  width: 150px; /* Adjust size as needed */
+  width: 100px; /* Adjust size as needed */
     height: auto; /* Adjust size as needed */
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 /* -------------------------------------------------------------------
