@@ -115,33 +115,40 @@
                 Kindly fill-up the form below to help us better understand your profile and help you connect to a connect group that suits you.
                 </p>
 
-                <form name="connectForm" id="connectForm" class="connectForm" method="post" action="" autocomplete="off">
-                    <fieldset>
-
-                        <div class="form-field">
-                            <input name="cName" id="cName" class="h-full-width h-remove-bottom" placeholder="Your Name" value="" type="text">
-                        </div>
-
-                        <div class="form-field">
-                            <input name="cEmail" id="cEmail" class="h-full-width h-remove-bottom" placeholder="Your Email" value="" type="text">
-                        </div>
-
-                        <div class="form-field">
-                            <input name="cPhone" id="cPhone" class="h-full-width h-remove-bottom" placeholder="Mobile Number" value="" type="tel">
-                        </div>
-
-                        <div class="form-field">
-                            <input name="cFacebook" id="cFacebook" class="h-full-width h-remove-bottom" placeholder="Facebook URL" value="" type="text">
-                        </div>
-
-                        <div class="form-field">
-                            <input name="cAge" id="cAge" class="h-full-width h-remove-bottom" placeholder="Your Age" value="" type="text">
-                        </div>
-
-                        <div class="form-field">
-                            <input name="cAvailability" id="cAvailability" class="h-full-width h-remove-bottom" placeholder="Availability (Day & Time)" value="" type="text">
-                        </div>
-
+                <form
+  action="https://formspree.io/f/mgegkzdb"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email" required>
+  </label>
+  <label>
+    Your message:
+    <textarea name="message" required></textarea>
+  </label>
+  <label>
+    Your Name:
+    <input type="text" name="cName" required>
+  </label>
+  <label>
+    Mobile Number:
+    <input type="tel" name="cPhone" required>
+  </label>
+  <label>
+    Facebook URL:
+    <input type="text" name="cFacebook">
+  </label>
+  <label>
+    Your Age:
+    <input type="text" name="cAge">
+  </label>
+  <label>
+    Availability (Day & Time):
+    <input type="text" name="cAvailability">
+  </label>
+  <button type="submit">Send</button>
+</form>
                         <!-- <br>
                         <div class="form-field">
                             <label for="cGender">Gender :</label>
