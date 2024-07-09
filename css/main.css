@@ -2747,7 +2747,7 @@ html.no-csstransitions .hero-content {
   background-color: #1515;
   color: #ffffff; /* Text color */
   text-align: center; /* Center align the text */
-  max-width: 900px; /* Adjust the max-width as needed */
+  max-width: 1000px; /* Adjust the max-width as needed */
   margin: 0 auto; /* Center the social box */
 }
 .social-heading h2 {
