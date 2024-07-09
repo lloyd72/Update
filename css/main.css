@@ -2747,8 +2747,8 @@ html.no-csstransitions .hero-content {
   background-color: #1515;
   color: #ffffff; /* Text color */
   text-align: center; /* Center align the text */
-  margin: 0;
 }
+
 .social-heading h2 {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
