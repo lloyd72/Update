@@ -2470,8 +2470,9 @@ html.no-csstransitions .hero-content {
   .hero-content h1 {
     font-size: 4.8rem;
   }
-
-  .hero-left-bar {
+  
+  .hero-left-bar,
+  .hero-social {
     display: none;
   }
 
