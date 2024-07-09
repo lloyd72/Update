@@ -2748,7 +2748,6 @@ html.no-csstransitions .hero-content {
   color: #ffffff; /* Text color */
   text-align: center; /* Center align the text */
   max-width: 1000px; /* Adjust the max-width as needed */
-  margin: 0 auto; /* Center the social box */
 }
 .social-heading h2 {
     font-family: "Montserrat", sans-serif;
