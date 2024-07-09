@@ -2722,7 +2722,7 @@ html.no-csstransitions .hero-content {
  * # events 
  *
  * ------------------------------------------------------------------- */
-/**.s-events {
+ .s-events {
   padding-top: 10.4rem;
   padding-bottom: 16rem;
   background-color: #ffffff;
@@ -3198,56 +3198,6 @@ html.no-csstransitions .hero-content {
  * ## about page 
  * ------------------------------------------------------------------- */
 
-/* church staff
- * ----------------------------------------------- */
-.church-staff {
-  margin-top: 6rem;
-}
-
-.church-staff__item {
-  margin-bottom: 1.6rem;
-}
-
-.church-staff__header {
-  margin-bottom: 1.6rem;
-  padding-top: 1.6rem;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row nowrap;
-  -ms-flex-flow: row nowrap;
-  flex-flow: row nowrap;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.church-staff__name {
-  margin-top: 0;
-  font-weight: 700;
-}
-
-.church-staff__position {
-  display: block;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 400;
-  margin-top: .6rem;
-}
-
-.church-staff__picture {
-  -webkit-flex: 0 0 8rem;
-  -ms-flex: 0 0 8rem;
-  flex: 0 0 8rem;
-  max-width: 8rem;
-  margin-right: 2rem;
-}
-
-.church-staff__picture img {
-  width: 8rem;
-  height: 8rem;
-  border-radius: 50%;
-}
 
 /* ------------------------------------------------------------------- 
  * ## event page 
@@ -3255,7 +3205,7 @@ html.no-csstransitions .hero-content {
 
 /* event content
  * ----------------------------------------------- */
-.event-content {
+/*.event-content {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
