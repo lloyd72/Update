@@ -1811,6 +1811,7 @@ input::-moz-focus-inner {
     z-index: 102;
 }
 
+/*
 .header-logo::before {
   /*content: "";
   display: block;
@@ -1820,8 +1821,9 @@ input::-moz-focus-inner {
   position: absolute;
   top: 5%;
   left: -11rem;
-}
+} 
  */ 
+
 .header-logo a {
   display: block;
   padding: 0;
@@ -2082,8 +2084,7 @@ input::-moz-focus-inner {
 /* -------------------------------------------------------------------
  * ## hero left bar
  * ------------------------------------------------------------------- */
-/*
-.hero-left.bar {
+.hero-left-bar {
   height: 100%;
   width: 8rem;
   background-color: #000000;
@@ -2093,7 +2094,6 @@ input::-moz-focus-inner {
   left: 0;
   bottom: 0;
 }
-*/
 /* -------------------------------------------------------------------
  * ## hero content
  * ------------------------------------------------------------------- */
@@ -2370,7 +2370,7 @@ html.no-csstransitions .hero-content {
 }
 
 @media screen and (max-width:1400px) {
-  .hero-left.bbar {
+  .hero-left-bar {
     width: 6.8rem;
   }
 
@@ -2490,7 +2490,7 @@ html.no-csstransitions .hero-content {
   }
 
   /
-  .hero-left.bbar,
+  .hero-left-bbar,
   .hero-social {
     display: none;
   }
