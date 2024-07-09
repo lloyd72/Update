@@ -435,7 +435,7 @@ textarea {
 /* rows
  * ------------------------------------- */
 .row {
-	width: 85%;
+	width: 90%;
 	max-width: 1000px;
 	margin: 0 auto;
 	display: -ms-flexbox;
@@ -449,8 +449,8 @@ textarea {
 .row .row {
 	width: auto;
 	max-width: none;
-	margin-left: -20px;
-	margin-right: -20px;
+	margin-left: -10px;
+	margin-right: -10px;
 }
 
 /* columns
