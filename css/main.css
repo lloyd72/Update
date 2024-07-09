@@ -2369,7 +2369,7 @@ html.no-csstransitions .hero-content {
 }
 
 @media screen and (max-width:1400px) {
-  .hero-left-bar {
+  .hero-left.bar {
     width: 6.8rem;
   }
 
@@ -2488,7 +2488,8 @@ html.no-csstransitions .hero-content {
     font-size: 4.4rem;
   }
 
-  .hero-left-bar,
+  /
+  .hero-left.bar,
   .hero-social {
     display: none;
   }
