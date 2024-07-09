@@ -2369,7 +2369,7 @@ html.no-csstransitions .hero-content {
 }
 
 @media screen and (max-width:1400px) {
-  .hero-left.bar {
+  .hero-left.bbar {
     width: 6.8rem;
   }
 
@@ -2489,7 +2489,7 @@ html.no-csstransitions .hero-content {
   }
 
   /
-  .hero-left.bar,
+  .hero-left.bbar,
   .hero-social {
     display: none;
   }
