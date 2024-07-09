@@ -1811,18 +1811,16 @@ input::-moz-focus-inner {
     z-index: 102;
 }
 
-/*
 .header-logo::before {
-  /*content: "";
-  display: block;
-  background-color: rgba(255, 255, 255, 0.5);
-  height: 1px;
-  width: 9rem;
-  position: absolute;
-  top: 5%;
-  left: -11rem;
+  content:
+  display:
+  background-color: 
+  height: 
+  width: 
+  position: 
+  top: 
+  left: 
 } 
- */ 
 
 .header-logo a {
   display: block;
