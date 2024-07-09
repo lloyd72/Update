@@ -2472,7 +2472,7 @@ html.no-csstransitions .hero-content {
   }
 
   .hero-left-bar {
-    opacity: .1;
+    display: none;
   }
 
 }
