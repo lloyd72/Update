@@ -3205,7 +3205,7 @@ html.no-csstransitions .hero-content {
 
 /* event content
  * ----------------------------------------------- */
-/*.event-content {
+.event-content {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
