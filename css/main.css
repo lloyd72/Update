@@ -2953,6 +2953,11 @@ html.no-csstransitions .hero-content {
 .footer-logo img {
   width: 100px;
   height: auto;
+  margin-bottom: 5px; /* Add this line to reduce gap */
+}
+
+.footer-logo div h3 {
+  margin-top: 5px; /* Add this line to reduce gap */
 }
 
 /* -------------------------------------------------------------------
