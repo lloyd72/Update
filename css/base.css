@@ -449,8 +449,8 @@ textarea {
 .row .row {
 	width: auto;
 	max-width: none;
-	margin-left: -10px;
-	margin-right: -10px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 /* columns
@@ -459,7 +459,7 @@ textarea {
 	-webkit-flex: 1 1 0%;
 	-ms-flex: 1 1 0%;
 	flex: 1 1 0%;
-	padding: 0 20px;
+	padding: 0 10px;
 }
 
 .collapse > .column,
