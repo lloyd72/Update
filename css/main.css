@@ -2747,7 +2747,7 @@ html.no-csstransitions .hero-content {
   background-color: #1515;
   color: #ffffff; /* Text color */
   text-align: center; /* Center align the text */
-  max-width: 1000px; /* Adjust the max-width as needed */
+  margin: 0;
 }
 .social-heading h2 {
     font-family: "Montserrat", sans-serif;
@@ -2760,7 +2760,7 @@ html.no-csstransitions .hero-content {
 }
 
 .social-content {
-  max-width: 900px;
+  max-width: 1000px;
 }
 
 .social-list {
