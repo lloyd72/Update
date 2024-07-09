@@ -2902,8 +2902,8 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-footer {
-  padding-top: 6rem;
-  padding-bottom: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
   background-color: #caa50a;
   font-family: "Open Sans", sans-serif;
   font-size: 1.7rem;
@@ -2916,15 +2916,15 @@ html.no-csstransitions .hero-content {
 }
 
 .s-footer h4 {
-  margin-top: 1.6rem;
-  margin-bottom: 2.4rem;
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
   color: #ffffff;
 }
 
 .s-footer .btn--footer {
   border-color: #21070a;
   background-color: #21070a;
-  padding: 0 4rem;
+  padding: 0 3rem;
 }
 
 .s-footer .btn--footer:hover,
