@@ -2719,7 +2719,7 @@ html.no-csstransitions .hero-content {
 }
 
 /* ===================================================================
- * # events 
+ * # weekly activities 
  *
  * ------------------------------------------------------------------- */
  .s-activities {
@@ -2728,11 +2728,11 @@ html.no-csstransitions .hero-content {
   background-color: #ffffff;
 }
 
-.s-events .subhead {
+.s-activities .subhead {
   color: #000000;
 }
 
-.events-header {
+.activities-header {
   margin-bottom: 2.4rem;
 }
 
