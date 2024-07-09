@@ -2062,7 +2062,9 @@ input::-moz-focus-inner {
   position: relative;
 }
 
+
 .s-hero::before {
+  /*
   display: block;
   content: "";
   position: absolute;
