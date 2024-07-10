@@ -2901,7 +2901,7 @@ html.no-csstransitions .hero-content {
  * # footer 
  *
  * ------------------------------------------------------------------- */
-/* Footer Styles */
+ /* Footer Styles */
 .s-footer {
   padding-top: 3rem;
   padding-bottom: 1.5rem;
@@ -2925,7 +2925,7 @@ html.no-csstransitions .hero-content {
 .s-footer .btn--footer {
   border-color: #21070a;
   background-color: #21070a;
-  padding: 0.3rem 1rem; /* Fixed missing 'rem' unit */
+  padding: 0.3rem 1rem;
 }
 
 .s-footer .btn--footer:hover,
@@ -2941,6 +2941,7 @@ html.no-csstransitions .hero-content {
 /* Footer Logo */
 .footer-logo {
   margin-bottom: 2.8rem;
+  text-align: center; /* Centering logo and content */
 }
 
 .footer-logo a {
@@ -3012,25 +3013,15 @@ html.no-csstransitions .hero-content {
     text-align: center;
   }
 
-  .s-footer .footer-top .footer-logo,
-  .s-footer .footer-top .row {
-    width: 100%;
+  .s-footer .footer-top .column.large-4 {
+    text-align: center; /* Centering logo on smaller screens */
   }
 
-  .s-footer .footer-top .row .column {
-    width: 100%;
-    margin: 0;
-  }
-
-  .s-footer .footer-top .row .column.large-7 {
-    text-align: left; /* Adjusting text alignment for the location */
-  }
-
-  .s-footer .footer-bottom {
-    margin-top: 1rem; /* Adding some space */
+  .s-footer .footer-top .column.large-half {
+    text-align: center; /* Centering location on smaller screens */
+    margin-top: 1rem; /* Adding space between logo and location */
   }
 }
-
 
 /* ------------------------------------------------------------------- 
  * ## copyright 
