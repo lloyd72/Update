@@ -2901,6 +2901,7 @@ html.no-csstransitions .hero-content {
  * # footer 
  *
  * ------------------------------------------------------------------- */
+/* Footer Styles */
 .s-footer {
   padding-top: 3rem;
   padding-bottom: 1.5rem;
@@ -2924,7 +2925,7 @@ html.no-csstransitions .hero-content {
 .s-footer .btn--footer {
   border-color: #21070a;
   background-color: #21070a;
-  padding: 0.3 1rem;
+  padding: 0.3rem 1rem; /* Fixed missing 'rem' unit */
 }
 
 .s-footer .btn--footer:hover,
@@ -2937,9 +2938,7 @@ html.no-csstransitions .hero-content {
   margin-right: auto;
 }
 
-/* -------------------------------------------------------------------
- * ## footer logo 
- * ------------------------------------------------------------------- */
+/* Footer Logo */
 .footer-logo {
   margin-bottom: 2.8rem;
 }
@@ -2954,16 +2953,14 @@ html.no-csstransitions .hero-content {
 .footer-logo img {
   width: 100px;
   height: auto;
-  margin-bottom: 5px; /* Add this line to reduce gap */
+  margin-bottom: 5px;
 }
 
 .footer-logo div h3 {
-  margin-top: 5px; /* Add this line to reduce gap */
+  margin-top: 5px;
 }
 
-/* -------------------------------------------------------------------
- * ## footer list 
- * ------------------------------------------------------------------- */
+/* Footer List */
 .footer-list {
   list-style: none;
   margin-left: 0;
@@ -2981,6 +2978,59 @@ html.no-csstransitions .hero-content {
 .footer-list li {
   padding-left: 0;
 }
+
+/* Copyright */
+.ss-copyright {
+  margin-top: 0.8rem;
+  padding-right: 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.ss-copyright span {
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+.ss-copyright span::after {
+  content: "|";
+  display: inline-block;
+  padding: 0 0.5rem;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.ss-copyright span:last-child::after {
+  display: none;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .s-footer .footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .s-footer .footer-top .footer-logo,
+  .s-footer .footer-top .row {
+    width: 100%;
+  }
+
+  .s-footer .footer-top .row .column {
+    width: 100%;
+    margin: 0;
+  }
+
+  .s-footer .footer-top .row .column.large-7 {
+    text-align: left; /* Adjusting text alignment for the location */
+  }
+
+  .s-footer .footer-bottom {
+    margin-top: 1rem; /* Adding some space */
+  }
+}
+
 
 /* ------------------------------------------------------------------- 
  * ## copyright 
