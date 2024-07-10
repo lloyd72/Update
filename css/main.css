@@ -973,7 +973,7 @@ input[type="button"] {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #272727;
-  border: 0.2rem solid #272727;
+  border: 1.5rem solid #272727;
 }
 
 .btn:hover,
