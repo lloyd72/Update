@@ -2941,7 +2941,7 @@ html.no-csstransitions .hero-content {
 
 /* Footer Logo */
 .footer-logo {
-    margin-bottom: 2.8rem;
+    margin-bottom: 1rem;
 }
 
 .footer-logo a {
@@ -2961,7 +2961,7 @@ html.no-csstransitions .hero-content {
 /* Footer Location */
 .footer-location {
     display: inline-block; /* Ensure location is on the same line as logo */
-    vertical-align: middle; /* Align location vertically with logo */
+    horizontal-align: middle; /* Align location vertically with logo */
     text-align: left; /* Align text to the left */
 }
 
@@ -2996,7 +2996,7 @@ html.no-csstransitions .hero-content {
  * ## copyright 
  * ------------------------------------------------------------------- */
 .ss-copyright {
-  margin-top: .8rem;
+  margin-top: .1rem;
   padding-right: 80px;
   color: rgba(255, 255, 255, 0.3);
 }
