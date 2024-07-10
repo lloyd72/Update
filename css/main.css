@@ -959,11 +959,11 @@ input[type="button"] {
   font-weight: 700;
   font-size: 1.1rem;
   text-transform: uppercase;
-  letter-spacing: .6rem;
-  height: 6rem;
-  line-height: 5.6rem;
-  padding: 0 3.2rem;
-  margin: 0 .4rem 1.6rem 0;
+  letter-spacing: .3rem;
+  height: rem;
+  line-height: 2rem;
+  padding: 0 .2rem;
+  margin: 0 0rem 0rem 0;
   color: #ffffff;
   text-decoration: none;
   text-align: center;
