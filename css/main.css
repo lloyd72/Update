@@ -2902,125 +2902,120 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
  /* Footer Styles */
+/* Footer Styles */
 .s-footer {
-  padding-top: 3rem;
-  padding-bottom: 1.5rem;
-  background-color: #caa50a;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.7rem;
-  line-height: 1.882;
-  color: rgba(255, 255, 255, 0.5);
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    background-color: #caa50a;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.7rem;
+    line-height: 1.882;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .s-footer a {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 .s-footer h4 {
-  margin-top: 1rem;
-  margin-bottom: 1.2rem;
-  color: #ffffff;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    color: #ffffff;
 }
 
 .s-footer .btn--footer {
-  border-color: #21070a;
-  background-color: #21070a;
-  padding: 0.3rem 1rem;
+    border-color: #21070a;
+    background-color: #21070a;
+    padding: 0.3rem 1rem;
 }
 
 .s-footer .btn--footer:hover,
 .s-footer .btn--footer:focus {
-  border-color: #000000;
-  background-color: #000000;
+    border-color: #000000;
+    background-color: #000000;
 }
 
 .s-footer .row .column:first-child {
-  margin-right: auto;
+    margin-right: auto;
 }
 
 /* Footer Logo */
 .footer-logo {
-  margin-bottom: 2.8rem;
-  text-align: center; /* Centering logo and content */
+    margin-bottom: 2.8rem;
 }
 
 .footer-logo a {
-  display: block;
-  padding: 0;
-  outline: 0;
-  border: none;
+    display: block;
+    padding: 0;
+    outline: 0;
+    border: none;
 }
 
 .footer-logo img {
-  width: 100px;
-  height: auto;
-  margin-bottom: 5px;
-}
-
-.footer-logo div h3 {
-  margin-top: 5px;
+    width: 100px;
+    height: auto;
+    margin-bottom: 5px;
 }
 
 /* Footer List */
 .footer-list {
-  list-style: none;
-  margin-left: 0;
+    list-style: none;
+    margin-left: 0;
 }
 
 .footer-list a {
-  color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .footer-list a:hover,
 .footer-list a:focus {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 .footer-list li {
-  padding-left: 0;
+    padding-left: 0;
 }
 
 /* Copyright */
 .ss-copyright {
-  margin-top: 0.8rem;
-  padding-right: 0;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.3);
+    margin-top: 0.8rem;
+    padding-right: 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .ss-copyright span {
-  font-size: 1.5rem;
-  display: inline-block;
+    font-size: 1.5rem;
+    display: inline-block;
 }
 
 .ss-copyright span::after {
-  content: "|";
-  display: inline-block;
-  padding: 0 0.5rem;
-  color: rgba(255, 255, 255, 0.1);
+    content: "|";
+    display: inline-block;
+    padding: 0 0.5rem;
+    color: rgba(255, 255, 255, 0.1);
 }
 
 .ss-copyright span:last-child::after {
-  display: none;
+    display: none;
 }
 
 /* Media Query for Smaller Screens */
 @media (max-width: 768px) {
-  .s-footer .footer-top {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
+    .s-footer .row.footer-top {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-  .s-footer .footer-top .column.large-4 {
-    text-align: center; /* Centering logo on smaller screens */
-  }
+    .s-footer .column.large-4 {
+        flex: 0 0 100%; /* Full width for logo on smaller screens */
+        margin-bottom: 1rem; /* Add spacing between logo and location */
+    }
 
-  .s-footer .footer-top .column.large-half {
-    text-align: center; /* Centering location on smaller screens */
-    margin-top: 1rem; /* Adding space between logo and location */
-  }
+    .s-footer .column.large-18 {
+        flex: 0 0 100%; /* Full width for location on smaller screens */
+    }
 }
 
 /* ------------------------------------------------------------------- 
