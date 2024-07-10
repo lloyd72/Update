@@ -2902,7 +2902,6 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
  /* Footer Styles */
-/* Footer Styles */
 .s-footer {
     padding-top: 3rem;
     padding-bottom: 1.5rem;
@@ -2911,6 +2910,7 @@ html.no-csstransitions .hero-content {
     font-size: 1.7rem;
     line-height: 1.882;
     color: rgba(255, 255, 255, 0.5);
+    text-align: center; /* Center align footer content */
 }
 
 .s-footer a {
@@ -2935,8 +2935,8 @@ html.no-csstransitions .hero-content {
     background-color: #000000;
 }
 
-.s-footer .row .column:first-child {
-    margin-right: auto;
+.s-footer .row .column {
+    margin-bottom: 1rem; /* Add spacing between columns */
 }
 
 /* Footer Logo */
@@ -2945,7 +2945,7 @@ html.no-csstransitions .hero-content {
 }
 
 .footer-logo a {
-    display: block;
+    display: inline-block; /* Ensure logo and location are on the same line */
     padding: 0;
     outline: 0;
     border: none;
@@ -2954,50 +2954,24 @@ html.no-csstransitions .hero-content {
 .footer-logo img {
     width: 100px;
     height: auto;
+    vertical-align: middle; /* Align image vertically with text */
     margin-bottom: 5px;
 }
 
-/* Footer List */
-.footer-list {
-    list-style: none;
-    margin-left: 0;
+/* Footer Location */
+.footer-location {
+    display: inline-block; /* Ensure location is on the same line as logo */
+    vertical-align: middle; /* Align location vertically with logo */
+    text-align: left; /* Align text to the left */
 }
 
-.footer-list a {
-    color: rgba(255, 255, 255, 0.5);
+.footer-location h4 {
+    margin-top: 0; /* Remove margin top for location header */
+    margin-bottom: 0.5rem; /* Adjust margin bottom for location header */
 }
 
-.footer-list a:hover,
-.footer-list a:focus {
-    color: #ffffff;
-}
-
-.footer-list li {
-    padding-left: 0;
-}
-
-/* Copyright */
-.ss-copyright {
-    margin-top: 0.8rem;
-    padding-right: 0;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.3);
-}
-
-.ss-copyright span {
-    font-size: 1.5rem;
-    display: inline-block;
-}
-
-.ss-copyright span::after {
-    content: "|";
-    display: inline-block;
-    padding: 0 0.5rem;
-    color: rgba(255, 255, 255, 0.1);
-}
-
-.ss-copyright span:last-child::after {
-    display: none;
+.footer-location p {
+    margin-bottom: 0; /* Remove margin bottom for location paragraph */
 }
 
 /* Media Query for Smaller Screens */
@@ -3010,10 +2984,10 @@ html.no-csstransitions .hero-content {
 
     .s-footer .column.large-4 {
         flex: 0 0 100%; /* Full width for logo on smaller screens */
-        margin-bottom: 1rem; /* Add spacing between logo and location */
+        margin-bottom: 0.5rem; /* Adjust spacing between logo and location */
     }
 
-    .s-footer .column.large-18 {
+    .s-footer .column.large-8 {
         flex: 0 0 100%; /* Full width for location on smaller screens */
     }
 }
