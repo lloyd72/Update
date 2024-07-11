@@ -1,7 +1,5 @@
 /* =================================================================== 
- *  Hesed Main Stylesheet
- *  Template Ver. 1.0.0
- *  06-26-2019
+ *  King Makers
  *  ------------------------------------------------------------------
  *
  *  TOC:
@@ -41,7 +39,7 @@
  *  # about
  *    ## about content
  *    ## schedule of services
- *  # connect
+ *  # Prayer Request
  *  # events
  *  # social section
  *  # footer styles
@@ -1454,117 +1452,6 @@ input::-moz-focus-inner {
   background-color: #827217;
 }
 
-/* -------------------------------------------------------------------
- * ## pagination
- * ------------------------------------------------------------------- */
-/*.pgn {
-  margin: 3.2rem auto 3.2rem;
-  text-align: center;
-}
-
-.pgn ul {
-  display: inline-block;
-  list-style: none;
-  margin-left: 0;
-  position: relative;
-  padding: 0 6rem;
-}
-
-.pgn ul li {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
-
-.pgn__num {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 1.7rem;
-  line-height: 3.2rem;
-  display: inline-block;
-  padding: .2rem 1.2rem;
-  height: 3.6rem;
-  margin: .2rem .2rem;
-  color: #000000;
-  transition: all, .3s, ease-in-out;
-}
-
-.pgn__num:hover {
-  background: #e0e0e0;
-  color: #000000;
-}
-
-.pgn .current,
-.pgn .current:hover {
-  background-color: #000000;
-  color: white;
-}
-
-.pgn .inactive,
-.pgn .inactive:hover {
-  opacity: 0.4;
-  cursor: default;
-}
-
-.pgn__prev,
-.pgn__next {
-  display: block;
-  background-repeat: no-repeat;
-  background-size: 16px 16px;
-  background-position: center;
-  height: 3.6rem;
-  width: 4.8rem;
-  line-height: 2rem;
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  font: 0/0 a;
-  text-shadow: none;
-  color: transparent;
-  transition: all, .2s, ease-in-out;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translate3d(0, -50%, 0);
-  transform: translate3d(0, -50%, 0);
-}
-
-.pgn__prev:hover,
-.pgn__next:hover {
-  background-color: #e0e0e0;
-}
-
-.pgn__prev {
-  background-image: url("../images/icons/icon-arrow-left.svg");
-  left: 0;
-}
-
-.pgn__next {
-  background-image: url("../images/icons/icon-arrow-right.svg");
-  right: 0;
-}
-
-.pgn__prev.inactive,
-.pgn__next.inactive {
-  opacity: 0.4;
-  cursor: default;
-}
-
-.pgn__prev.inactive:hover,
-.pgn__next.inactive:hover {
-  background-color: transparent;
-}
-
-/* ------------------------------------------------------------------- 
- * responsive:
- * pagination
- * ------------------------------------------------------------------- */
-@media screen and (max-width:600px) {
-  .pgn ul {
-    padding: 0 5.2rem;
-  }
-
-}
-
 
 /* ===================================================================
  * # common and reusable styles
@@ -2617,22 +2504,22 @@ html.no-csstransitions .hero-content {
 }
 
 
-/* ===================================================================
- * # connect/prayer request
- *
- * ------------------------------------------------------------------- */
-.s-connect {
+/* ----------------------------------------------------------------
+ * prayer request
+ *----------------------------------------------------------------
+*/
+.s-prayer {
   padding-top: 16rem;
   padding-bottom: 0;
   background-color: #ffffff;
 }
 
-.connect-content {
+.prayer-content {
   padding-bottom: 12rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.connect-content .column {
+.prayer-content .column {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -2641,73 +2528,67 @@ html.no-csstransitions .hero-content {
   flex-flow: column nowrap;
 }
 
-.connect-content .column:first-child {
+.prayer-content .column:first-child {
   padding-right: 2.4vw;
 }
 
-.connect-content .column:last-child {
+.prayer-content .column:last-child {
   padding-left: 2.4vw;
 }
 
-.connect-content .btn {
+.prayer-content .btn {
   margin-top: auto;
   margin-right: 0;
 }
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * connect
+ * prayer
  * ------------------------------------------------------------------- */
 @media screen and (max-width:1000px) {
-  .connect-content .column:first-child {
+  .prayer-content .column:first-child {
     padding-right: 2.2vw;
   }
 
-  .connect-content .column:last-child {
+  .prayer-content .column:last-child {
     padding-left: 2.2vw;
   }
 
 }
 
 @media screen and (max-width:900px) {
-  .connect-content .column {
+  .prayer-content .column {
     -webkit-flex: 0 0 100%;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
 
-  .connect-content .column:first-child {
+  .prayer-content .column:first-child,
+  .prayer-content .column:last-child {
     padding-right: 16px;
-  }
-
-  .connect-content .column:last-child {
     padding-left: 16px;
   }
 
-  .connect-content .column:first-child {
+  .prayer-content .column:first-child {
     margin-bottom: 6.4rem;
   }
 
 }
 
 @media screen and (max-width:600px) {
-  .connect-content .column:first-child {
+  .prayer-content .column:first-child,
+  .prayer-content .column:last-child {
     padding-right: 10px;
-  }
-
-  .connect-content .column:last-child {
     padding-left: 10px;
   }
 
 }
 
 @media screen and (max-width:400px) {
-  .connect-content .column:first-child {
+  .prayer-content .column:first-child,
+  .prayer-content .column:last-child {
     padding-right: 0;
-  }
-
-  .connect-content .column:last-child {
     padding-left: 0;
   }
 
